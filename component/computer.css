@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorBlack : #1E293B;
+    --imageMaster:https://mastertechkh.com/img/header_search.png;
+    --imageMasterred:https://mastertechkh.com/img/header_search.png;
+    --imageScrol:https://www.mastertechkh.com/storage/uploads/Banner/WATER%20PC.jpg;
+    --imageScrol1:https://www.mastertechkh.com/storage/uploads/Banner/RAZER.jpg;
+    --imageSrol2:https://www.mastertechkh.com/storage/silders/T9ljr4vv1eiaA4EhHt0rILQ2KbqynC-metaVW50aXRsZWQtMS5qcGc=-.jpg;
+    --imageScrol3:https://www.mastertechkh.com/storage/silders/TOeDBFXa7ut0Kzye3kej4b8fTizMC5-metaQUVZdmc5aEpiZFhGbVdMNFhLUGlIay5qcGc=-.jpg;
+    --imageScrol4:https://www.mastertechkh.com/storage/silders/ymwXWohiEtHF6FaiW9sy5op9MllFXx-metaMTdfX2J1bmRsZXMuanBn-.jpg;
+    --imageScrol5:https://www.mastertechkh.com/storage/silders/tEEjGkoTKjcDavlWsJur5xhB3DqUEQ-metaWWVhcl9FbmQtS0gtcHJvbW8tMTAtQ2hhbm5lbC04NzB4MzMwLmpwZw==-.jpg;
+    --imageScrol6:https://www.mastertechkh.com/storage/silders/rCcgFUHsAm9wjMdy2buXsfvTvAgWlG-metaMTIzLmpwZw==-.jpg;
+    --imageimage:https://mastertechkh.com/img/categories/sec-desktop-g.jpg;
+
+}
+.navbar{
+    height: 130px;
+    background-color: #1E293B;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    row-gap: 2rem;
+    padding: 10px;
+}
+.classNav{
+    position: relative;
+    height: 50px;
+    width: 80%;
+    background-color: #1E293B;
+   
+}
+.classNav:nth-child(1){
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-left: 50px;
+    
+}
+.contact{
+    display: flex;
+}
+.contact h5{
+    font-size:15px ;
+    color: white;
+}
+.location{
+    display: flex;
+}
+.location i{
+    font-size: 15px;
+    color: #cb0b0a;
+}
+.location h5{
+    font-family: "Hanuman", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+.contact i{
+    font-size: 15px;
+    color: #cb0b0a;
+}
+.classNav:nth-child(2){
+    /* background-color: yellow; */
+    display: flex;
+    gap: 1rem;
+    /* flex-direction: column; */
+    bottom: 10px;
+    position: absolute;
+    left: 60px;
+   
+    
+    
+}
+
+/*  */
+
+.search{
+    position: relative;
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    border:  1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.search  i{
+    position: absolute;
+    font-size: 20px;
+    margin-right: 5px;
+    right: 5px;
+    top: 14px;
+
+   
+}
+
+.myAccount{
+    position: relative;
+    height: 50px;
+    width: 240px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.myAccount i{
+    font-size: 30px;
+    color: white;
+}
+.myAccount h5{
+    font-size: 20px;
+    color:white;
+    position: relative;
+}
+.search input{
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+}
+.drop{
+    position: absolute;
+    height: 0px;
+    width: 100px;
+    background-color: white;
+    top: 50px;
+    right: 10px;
+    transition: all 0.5s;
+    opacity: 0;
+    flex-direction: column;
+    display: flex;
+    row-gap: 10px;
+    padding: 2px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.drop i{
+    font-size: 14px;
+    color: red;
+}
+.drop i:hover{
+    transform: scale(1.1);
+}
+.drop a{
+    text-decoration: none;
+}
+.myAccount:hover .drop{
+    height: 60px;
+    opacity: 1;
+}
+.contegories{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.showCotegories{
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    align-items: center;
+    padding: 10px ;
+    
+}
+.showCotegories ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+   
+}
+.showCotegories ul  li a{
+   text-decoration: none;
+   margin-top:auto ;
+   color: black;
+   font-size: 18px;
+   font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.showCotegories ul li{
+    position: relative;
+}
+.showCotegories ul li::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color:black;
+    position: absolute;
+    top: 20px;
+    transition: all 0.5s;
+}
+.showCotegories ul li:hover::before{
+    width: 100%;
+}
+.showCotegories ul li ul{
+    position: absolute;
+    height:0px;
+    width: 100px;
+    background-color: white;
+    top: 30px;
+    transition: all 0.5s;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}
+.showCotegories ul li:hover ul{
+    height: 200px;
+}
+.container{
+    margin-top: 20px;
+    height: 600px;
+    /* background-color: red; */
+}
+
+
+#container{
+    background-color: black;
+}

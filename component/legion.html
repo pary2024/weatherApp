@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="computer.css">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --colorBlack : #1E293B;
+    --imageMaster:https://mastertechkh.com/img/header_search.png;
+    --imageMasterred:https://mastertechkh.com/img/header_search.png;
+    --imageScrol:https://www.mastertechkh.com/storage/uploads/Banner/WATER%20PC.jpg;
+    --imageScrol1:https://www.mastertechkh.com/storage/uploads/Banner/RAZER.jpg;
+    --imageSrol2:https://www.mastertechkh.com/storage/silders/T9ljr4vv1eiaA4EhHt0rILQ2KbqynC-metaVW50aXRsZWQtMS5qcGc=-.jpg;
+    --imageScrol3:https://www.mastertechkh.com/storage/silders/TOeDBFXa7ut0Kzye3kej4b8fTizMC5-metaQUVZdmc5aEpiZFhGbVdMNFhLUGlIay5qcGc=-.jpg;
+    --imageScrol4:https://www.mastertechkh.com/storage/silders/ymwXWohiEtHF6FaiW9sy5op9MllFXx-metaMTdfX2J1bmRsZXMuanBn-.jpg;
+    --imageScrol5:https://www.mastertechkh.com/storage/silders/tEEjGkoTKjcDavlWsJur5xhB3DqUEQ-metaWWVhcl9FbmQtS0gtcHJvbW8tMTAtQ2hhbm5lbC04NzB4MzMwLmpwZw==-.jpg;
+    --imageScrol6:https://www.mastertechkh.com/storage/silders/rCcgFUHsAm9wjMdy2buXsfvTvAgWlG-metaMTIzLmpwZw==-.jpg;
+    --imageimage:https://mastertechkh.com/img/categories/sec-desktop-g.jpg;
+
+}
+.navbar{
+    height: 130px;
+    background-color: #1E293B;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    row-gap: 2rem;
+    padding: 10px;
+}
+.classNav{
+    position: relative;
+    height: 50px;
+    width: 80%;
+    background-color: #1E293B;
+   
+}
+.classNav:nth-child(1){
+    position: absolute;
+    top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    margin-left: 50px;
+    
+}
+.contact{
+    display: flex;
+}
+.contact h5{
+    font-size:15px ;
+    color: white;
+}
+.location{
+    display: flex;
+}
+.location i{
+    font-size: 15px;
+    color: #cb0b0a;
+}
+.location h5{
+    font-family: "Hanuman", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+}
+.contact i{
+    font-size: 15px;
+    color: #cb0b0a;
+}
+.classNav:nth-child(2){
+    /* background-color: yellow; */
+    display: flex;
+    gap: 1rem;
+    /* flex-direction: column; */
+    bottom: 10px;
+    position: absolute;
+    left: 60px;
+   
+    
+    
+}
+
+/*  */
+
+.search{
+    position: relative;
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+    border:  1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+.search  i{
+    position: absolute;
+    font-size: 20px;
+    margin-right: 5px;
+    right: 5px;
+    top: 14px;
+
+   
+}
+
+.myAccount{
+    position: relative;
+    height: 50px;
+    width: 240px;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.myAccount i{
+    font-size: 30px;
+    color: white;
+}
+.myAccount h5{
+    font-size: 20px;
+    color:white;
+    position: relative;
+}
+.search input{
+    height: 50px;
+    width: 400px;
+    border-radius: 20px;
+}
+.drop{
+    position: absolute;
+    height: 0px;
+    width: 100px;
+    background-color: white;
+    top: 50px;
+    right: 10px;
+    transition: all 0.5s;
+    opacity: 0;
+    flex-direction: column;
+    display: flex;
+    row-gap: 10px;
+    padding: 2px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.drop i{
+    font-size: 14px;
+    color: red;
+}
+.drop i:hover{
+    transform: scale(1.1);
+}
+.drop a{
+    text-decoration: none;
+}
+.myAccount:hover .drop{
+    height: 60px;
+    opacity: 1;
+}
+.contegories{
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.showCotegories{
+    height: 50px;
+    width: 80%;
+    background-color: white;
+    align-items: center;
+    padding: 10px ;
+    
+}
+.showCotegories ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    position: relative;
+   
+}
+.showCotegories ul  li a{
+   text-decoration: none;
+   margin-top:auto ;
+   color: black;
+   font-size: 18px;
+   font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.showCotegories ul li{
+    position: relative;
+}
+.showCotegories ul li::before{
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0%;
+    background-color:black;
+    position: absolute;
+    top: 20px;
+    transition: all 0.5s;
+}
+.showCotegories ul li:hover::before{
+    width: 100%;
+}
+.showCotegories ul li ul{
+    position: absolute;
+    height:0px;
+    width: 100px;
+    background-color: white;
+    top: 30px;
+    transition: all 0.5s;
+    flex-direction: column;
+    overflow: hidden;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+
+}
+.showCotegories ul li:hover ul{
+    height: 200px;
+}
+.container{
+    margin-top: 20px;
+    height: 600px;
+    /* background-color: red; */
+}
+
+
+#container{
+    background-color: black;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar ">
+
+        <div class="classNav ">
+            <div class="contact">
+                <i class="fa-solid fa-phone"></i>
+                <h5>010445201 / 089 786502</h5>
+            </div>
+            <div class="location">
+                <i class="fa-solid fa-map"></i>
+                <h5>ទីតាំង: ខាងក្រោយពេទ្យលោកសង្ឈ ផ្លូវ​ 146 ផ្ទះលេខ229A សង្កាត់ទឹកល្អក 2 រាជធានីភ្នុំពេញ​ Cambodia</h5>
+            </div>
+        </div>
+        <div class="classNav ">
+            <figure class="imageMaster">
+                <img src="https://mastertechkh.com/img/header_search.png" alt="">
+            </figure>
+
+            <div class="search">
+               <span><input type="text" placeholder="Find your favorite">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                
+            </span>
+              
+            </div>
+
+            <div class=" myAccount">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span><h5 class="" id="myAcount">My Account</h5>
+                    
+                </span>
+
+                <div class="drop">
+                   <span><i class="fa-solid fa-right-to-bracket"></i><a href="">Login</a></span>
+                   <span><i class="fa-solid fa-user"></i><a href="">Sign in</a></span>
+                </div>
+
+            </div>
+        </div>
+
+
+    </nav>
+    <div class="contegories">
+
+        <div class="showCotegories">
+            <ul>
+                <li>
+                    <a href="#" class="btncatege" id="btnCategory">Categories</a>
+                        <ul class="btndrop" id="dropdownMenu">
+                            <li>Laptops</li>
+                            <li>PC-parts</li>
+                            <li>Accessories</li>
+                            <li>Monitors</li>
+                            <li>PC-sets</li>
+                            <li>Other</li>
+                        </ul>
+                </li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Laptop ROG</a></li>
+                <li><a href="">MSI</a></li>
+                <li><a href="">ASUS</a></li>
+                <li><a href="">APPLE</a></li>
+                <li><a href="">Accesories</a></li>
+                <li><a href="">CPU</a></li>
+                <li><a href="">PC-Sets</a></li>
+                <li><a href="">Monitore</a></li>
+                <li><a href="">Chair</a></li>
+                <li><a href="">Custom PC Builder</a></li>
+            </ul>
+
+        </div>
+      </div>
+      <!-- computer -->
+
+
+      <div class="container h-75">
+        <div class="row">
+            <div class="col">
+                <figure class=" h-75 mt-5 ms-0 " >
+                    <img src="https://www.mastertechkh.com/storage/images/28-Mar-2022-040008_624132c8581e3.jpg" alt="">
+                </figure>
+            </div>
+            <div class="col ms-5 mt-5">
+                <div>
+                    <h1>
+
+
+                        Lenovo Legion 5Pro 16ACH6H Storm Grey</h1>
+                </div>
+                <div class=" d-flex align-items-center justify-content-between w-50">
+                    <p>posted on 1 year ago</p>
+                    <button class=" btn btn-success">IN STCOK</button>
+                </div>
+                <div class="d-flex align-items-center justify-content-between w-25">
+                    <p class=" fs-3">$
+                        1599</p>
+                    <p class=" text-decoration-line-through">$1655</p>
+                </div>
+                <div>
+                    <p>  CPU :AMD Ryzen7 5800H  <br>
+                        RAM : 16GB(8*2) 3200MHz DDR4  <br>
+                        Storage : 512GB PCIe   <br>
+                        Display: 16" 2K WQXGA IPS 165Hz   <br>
+                        Graphic : NVIDIA RTX 3060 6GB GDDR6   <br>
+                        Color :Storm Grey  <br>
+                        Free  Backpack, <br>
+                        Free Mouse  <br>
+                        Free MOUSEPAD  <br>
+                        +1Years Warranty  </p>
+                       <hr>
+                </div>
+                <div>
+                    <p>Categories: TUF Gaming, Laptops
+                        Share:
+                        </p>
+                </div>
+            </div>
+        </div>
+      </div>
+       <!-- @ -->
+
+       <!-- footer -->
+      <div id="container" class="container-fluid bg-dark shadow h-25 ">
+        <div class="row">
+            <div class="col  ms-5 p-5">
+                <figure>
+                    <img src="https://mastertechkh.com/img/header_search.png" alt="">
+                </figure>
+
+                <div class=" d-flex gap ">
+                    <i class="fa-solid fa-phone text-danger"></i>
+                    <p class=" text-light">
+                        010 445 201 / 089 786 502</p>
+                </div>
+
+                <div class=" d-flex">
+                    <i class="fa-solid fa-location-dot text-danger"></i>
+                    <p class=" text-light">
+                        ទីតាំង: ខាងក្រោយពេទ្យលោកសង្ឈ ផ្លូវ​ 146 ផ្ទះលេខ229A សង្កាត់ទឹកល្អក 2 រាជធានីភ្នុំពេញ​ Cambodia</p>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+
+            <div class="col d-flex align-items-center justify-content-center">
+                <p class=" text-light">© 2024 Mastertech KH. All rights reserved</p>
+            </div>
+        </div>
+      </div>
+        <!-- @ -->
+</body>
+</html>

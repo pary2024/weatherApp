@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Selection</title>
+    <style>
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .selection {
+            width: 300px;
+        }
+        .selectfeild {
+            height: 50px;
+            width: 100%;
+            background-color: rgba(255, 166, 0, 0.881);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .selectfeild p {
+            color: white;
+            font-family: sans-serif;
+        }
+        .selectfeild img {
+            width: 25px;
+        }
+        ul {
+            width: 100%;
+            background-color: orange;
+            padding: 10px;
+            margin: 0;
+            display: none; /* Initially hide the list */
+            border-radius: 10px;
+        }
+        ul.show {
+            display: block; /* Show when toggled */
+        }
+        li {
+            font-family: sans-serif;
+            list-style: none;
+            padding: 5px 0;
+            cursor: pointer;
+        }
+        li:hover {
+            background-color: white;
+        }
+        .rotate {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="selection">
+        <div class="selectfeild">
+            <p id="selectText">Select the name of app</p>
+            <img src="toggle-removebg-preview.png" id="rotate" alt="Toggle">
+        </div>
+
+        <ul class="list">
+            <li class="option"><p>Facebook</p></li>
+            <li class="option"><p>Instagram</p></li>
+            <li class="option"><p>TikTok</p></li>
+            <li class="option"><p>App Store</p></li>
+            <li class="option"><p>Play Store</p></li>
+        </ul>
+    </div>
+
+    <script>
+        const selectfeild = document.querySelector('.selectfeild');
+        const selectText = document.querySelector('#selectText');
+        const options = document.querySelectorAll('.option'); // Use class selector for multiple options
+        const list = document.querySelector('.list');
+        const rotate = document.getElementById('rotate');
+
+        // Toggle the dropdown menu
+        selectfeild.addEventListener('click', () => {
+            list.classList.toggle('show'); // Use 'show' class for toggling
+            rotate.classList.toggle('rotate');
+        });
+
+        // Update selected text and close dropdown
+        options.forEach(option => {
+            option.addEventListener('click', function () {
+                selectText.innerHTML = this.textContent; // Set selected text
+                list.classList.remove('show'); // Close dropdown
+                rotate.classList.remove('rotate'); // Reset arrow direction
+            });
+        });
+    </script>
+</body>
+</html>
+ 

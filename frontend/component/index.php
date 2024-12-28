@@ -1,96 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Document</title>
-    
-</head>
-<body>
-    <!-- navigationbar -->
-        <nav class="navbar">
+<?php  include "./header.php";  ?>
 
-            <div class="classNav">
-                <div class="contact">
-                    <i class="fa-solid fa-phone"></i>
-                    <h5>010445201 / 089 786502</h5>
-                </div>
-                <div class="location">
-                    <i class="fa-solid fa-map"></i>
-                    <h5>ទីតាំង: ខាងក្រោយពេទ្យលោកសង្ឈ ផ្លូវ​ 146 ផ្ទះលេខ229A សង្កាត់ទឹកល្អក 2 រាជធានីភ្នុំពេញ​ Cambodia</h5>
-                </div>
-            </div>
-            <div class="classNav">
-                <figure class="imageMaster">
-                    <img src="https://mastertechkh.com/img/header_search.png" alt="">
-                </figure>
-
-                <div class="search">
-                   <span><input type="text" placeholder="Find your favorite">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                    
-                </span>
-                  
-                </div>
-
-                <div class=" myAccount">
-                    <i class="fa-regular fa-heart"></i>
-                    <i class="fa-solid fa-cart-shopping"></i>
-                    <span><h5 class="" id="myAcount">My Account</h5>
-                        
-                    </span>
-
-                    <div class="drop">
-                       <span><i class="fa-solid fa-right-to-bracket"></i><a href="">Login</a></span>
-                       <span><i class="fa-solid fa-user"></i><a href="">Sign in</a></span>
-                    </div>
-
-                </div>
-            </div>
-
-
-        </nav>
-    <!-- @ -->
-     <!-- cotegoriess -->
-      <div class="contegories">
-
-        <div class="showCotegories">
-            <ul>
-                <li>
-                    <a href="#" class="btncatege" id="btnCategory">Categories</a>
-                        <ul class="btndrop" id="dropdownMenu">
-                            <li>Laptops</li>
-                            <li>PC-parts</li>
-                            <li>Accessories</li>
-                            <li>Monitors</li>
-                            <li>PC-sets</li>
-                            <li>Other</li>
-                        </ul>
-                </li>
-                <li><a href="">Home</a></li>
-                <li><a href="">Laptop ROG</a></li>
-                <li><a href="">MSI</a></li>
-                <li><a href="">ASUS</a></li>
-                <li><a href="">APPLE</a></li>
-                <li><a href="">Accesories</a></li>
-                <li><a href="">CPU</a></li>
-                <li><a href="">PC-Sets</a></li>
-                <li><a href="">Monitore</a></li>
-                <li><a href="">Chair</a></li>
-                <li><a href="">Custom PC Builder</a></li>
-            </ul>
-
-        </div>
-
-      </div>
-      <!-- @ -->
-      
-      <!-- slidebar  -->
-
-        <div class="container">
+<div class="container">
             <div class="sidebar">
                 <h4 >Home Leptop</h4>
                 <div class="sidebars">
@@ -137,6 +47,46 @@
         </div>
         <h1>HOT PROMOTION</h1>
         <hr style=" color: red;">
+
+                 <!-- slidebar  -->
+
+        
+                 <div class="conteg-model">
+            <div class="cont-model" data-aos="zoom-out-down">
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/asus.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/rog.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/msi.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/acer.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/dell.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/apple.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/razer.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/lenovo.jpg" alt="">
+                </div>
+                <div class="model-box">
+                    <img src="https://www.mastertechkh.com/storage/categories/tuf-gaming.jpg" alt="">
+                </div>
+
+            </div>
+
+            <!-- @ -->
+        </div>
+        <h1>TUF GAMING</h1>
+        <hr>
        <!-- hot promotion -->
 
 
@@ -332,46 +282,10 @@
     <h1>CATEGORIES</h1>
     <hr style="color: red;">
 
-        <!-- @ -->
-         <!-- cotegories -->
 
-         <div class="conteg-model">
-            <div class="cont-model" data-aos="zoom-out-down">
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/asus.jpg" alt="">
-                </div>
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/rog.jpg" alt="">
-                </div>
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/msi.jpg" alt="">
-                </div>
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/acer.jpg" alt="">
-                </div>
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/dell.jpg" alt="">
-                </div>
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/apple.jpg" alt="">
-                </div>
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/razer.jpg" alt="">
-                </div>
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/lenovo.jpg" alt="">
-                </div>
-                <div class="model-box">
-                    <img src="https://www.mastertechkh.com/storage/categories/tuf-gaming.jpg" alt="">
-                </div>
 
-            </div>
-
-            <!-- @ -->
-        </div>
-        <h1>TUF GAMING</h1>
-        <hr>
-
+    <!-- /////////////////////////////////// -->
+   
           <!-- detail model computer -->
 
           <div class="promotion-card">
@@ -384,7 +298,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/Rram5poNIfGK9P2Lgk37mUevDwJDmR-metaMjQtTWFyLTIwMjItMDg1MTI4XzYyM2MzMTEwMjk3OWEuanBn-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/Rram5poNIfGK9P2Lgk37mUevDwJDmR-metaMjQtTWFyLTIwMjItMDg1MTI4XzYyM2MzMTEwMjk3OWEuanBn-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -431,7 +345,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/images/06-Mar-2023-215859_64066223bce4b.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/images/06-Mar-2023-215859_64066223bce4b.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -478,7 +392,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/images/06-Mar-2023-215859_64066223bce4b.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/images/06-Mar-2023-215859_64066223bce4b.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -525,7 +439,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/e2nL6UuOjHEGKUyuYKDYRXZqyBz4H0-metaVEJndkdwblNiTjgwaWFXaFhDbElhZ1Npd0cydWZzLW1ldGFNVjgyTUM1cWNHYz0tLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/e2nL6UuOjHEGKUyuYKDYRXZqyBz4H0-metaVEJndkdwblNiTjgwaWFXaFhDbElhZ1Npd0cydWZzLW1ldGFNVjgyTUM1cWNHYz0tLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -572,7 +486,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/e2nL6UuOjHEGKUyuYKDYRXZqyBz4H0-metaVEJndkdwblNiTjgwaWFXaFhDbElhZ1Npd0cydWZzLW1ldGFNVjgyTUM1cWNHYz0tLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/e2nL6UuOjHEGKUyuYKDYRXZqyBz4H0-metaVEJndkdwblNiTjgwaWFXaFhDbElhZ1Npd0cydWZzLW1ldGFNVjgyTUM1cWNHYz0tLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -619,7 +533,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/sOg8imEFSdcGMP3CZS4a9dXoXSVKA6-metaMTEwMDY2MDMzXzI1LTA2LTIwMjRfODk0MTczLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/sOg8imEFSdcGMP3CZS4a9dXoXSVKA6-metaMTEwMDY2MDMzXzI1LTA2LTIwMjRfODk0MTczLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -666,7 +580,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/SUVs2xqXh3Qi7yG8SsZacdpfUSUk0b-metaMTYtRmViLTIwMjMtMTc1NzU2XzYzZWU2ZWE0Y2ExOWYuanBn-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/SUVs2xqXh3Qi7yG8SsZacdpfUSUk0b-metaMTYtRmViLTIwMjMtMTc1NzU2XzYzZWU2ZWE0Y2ExOWYuanBn-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -713,7 +627,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/k6F6W5p9cehfvPqcQdyqPjLmvenNm1-metaVzcxeUVzRWZYZEFwQ0xrM09wRFlIZ1p6NVRRbmRhLW1ldGFNVFl0Um1WaUxUSXdNak10TVRjMU5ERXpYell6WldVMlpHTTFOemc0T0dZdWFuQm4tLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/k6F6W5p9cehfvPqcQdyqPjLmvenNm1-metaVzcxeUVzRWZYZEFwQ0xrM09wRFlIZ1p6NVRRbmRhLW1ldGFNVFl0Um1WaUxUSXdNak10TVRjMU5ERXpYell6WldVMlpHTTFOemc0T0dZdWFuQm4tLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -760,7 +674,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/k6F6W5p9cehfvPqcQdyqPjLmvenNm1-metaVzcxeUVzRWZYZEFwQ0xrM09wRFlIZ1p6NVRRbmRhLW1ldGFNVFl0Um1WaUxUSXdNak10TVRjMU5ERXpYell6WldVMlpHTTFOemc0T0dZdWFuQm4tLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/k6F6W5p9cehfvPqcQdyqPjLmvenNm1-metaVzcxeUVzRWZYZEFwQ0xrM09wRFlIZ1p6NVRRbmRhLW1ldGFNVFl0Um1WaUxUSXdNak10TVRjMU5ERXpYell6WldVMlpHTTFOemc0T0dZdWFuQm4tLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -807,7 +721,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/uaei3Vi8xdyxJlL5U2jicPIdGWsWus-metaMTYtRmViLTIwMjMtMTc1OTI5XzYzZWU2ZjAxMmVkNTAuanBn-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/uaei3Vi8xdyxJlL5U2jicPIdGWsWus-metaMTYtRmViLTIwMjMtMTc1OTI5XzYzZWU2ZjAxMmVkNTAuanBn-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -854,7 +768,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/1IUDhFC8PcETZgYJmHuKLiH6L0IxWF-metaVzcxeUVzRWZYZEFwQ0xrM09wRFlIZ1p6NVRRbmRhLW1ldGFNVFl0Um1WaUxUSXdNak10TVRjMU5ERXpYell6WldVMlpHTTFOemc0T0dZdWFuQm4tLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/1IUDhFC8PcETZgYJmHuKLiH6L0IxWF-metaVzcxeUVzRWZYZEFwQ0xrM09wRFlIZ1p6NVRRbmRhLW1ldGFNVFl0Um1WaUxUSXdNak10TVRjMU5ERXpYell6WldVMlpHTTFOemc0T0dZdWFuQm4tLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -901,7 +815,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/1IUDhFC8PcETZgYJmHuKLiH6L0IxWF-metaVzcxeUVzRWZYZEFwQ0xrM09wRFlIZ1p6NVRRbmRhLW1ldGFNVFl0Um1WaUxUSXdNak10TVRjMU5ERXpYell6WldVMlpHTTFOemc0T0dZdWFuQm4tLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/1IUDhFC8PcETZgYJmHuKLiH6L0IxWF-metaVzcxeUVzRWZYZEFwQ0xrM09wRFlIZ1p6NVRRbmRhLW1ldGFNVFl0Um1WaUxUSXdNak10TVRjMU5ERXpYell6WldVMlpHTTFOemc0T0dZdWFuQm4tLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -948,7 +862,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="./component/computer.html"><img src="https://www.mastertechkh.com/storage/products/hgviMdbh3dIEVFBFUZMbE83eQJFJAW-metaTkhzTW9VSHVodHJONWszdzVLc0pxekhFWGNqanZHLW1ldGFNVFl0Um1WaUxUSXdNak10TVRneE56VTVYell6WldVM016VTNOMkpqT1dVdWFuQm4tLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/hgviMdbh3dIEVFBFUZMbE83eQJFJAW-metaTkhzTW9VSHVodHJONWszdzVLc0pxekhFWGNqanZHLW1ldGFNVFl0Um1WaUxUSXdNak10TVRneE56VTVYell6WldVM016VTNOMkpqT1dVdWFuQm4tLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -995,7 +909,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="./component/computer.html"><img src="https://www.mastertechkh.com/storage/products/Gb0omJjfR1QV8FOjKVSQDHYN4cLy31-metaTkhzTW9VSHVodHJONWszdzVLc0pxekhFWGNqanZHLW1ldGFNVFl0Um1WaUxUSXdNak10TVRneE56VTVYell6WldVM016VTNOMkpqT1dVdWFuQm4tLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/Gb0omJjfR1QV8FOjKVSQDHYN4cLy31-metaTkhzTW9VSHVodHJONWszdzVLc0pxekhFWGNqanZHLW1ldGFNVFl0Um1WaUxUSXdNak10TVRneE56VTVYell6WldVM016VTNOMkpqT1dVdWFuQm4tLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1042,7 +956,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="./component/computer.html"><img src="https://www.mastertechkh.com/storage/images/16-Feb-2023-181959_63ee73cfae1ed.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/images/16-Feb-2023-181959_63ee73cfae1ed.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1089,7 +1003,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="./component/computer.html"><img src="https://www.mastertechkh.com/storage/products/7xNiS7E0viO2JkrJYB6fswvk3Ln9BJ-metaUk9HX0ZMT1dfWjEzX2JsYWNrXzA4NjQuanBn-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/7xNiS7E0viO2JkrJYB6fswvk3Ln9BJ-metaUk9HX0ZMT1dfWjEzX2JsYWNrXzA4NjQuanBn-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1136,7 +1050,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="./component/computer.html"><img src="https://www.mastertechkh.com/storage/images/31-Mar-2023-085745_6426a089d0a6c.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/images/31-Mar-2023-085745_6426a089d0a6c.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1183,7 +1097,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="./component/computer.html"><img src="https://www.mastertechkh.com/storage/products/Q3tMlN4e4hSDhZ1ZIxHkgF5n4OFtoY-metaTEQwMDA2MTA2MDg5XzAwMDYxMDYxNDBfMDAwNjExNjEwMC5qcGc=-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/Q3tMlN4e4hSDhZ1ZIxHkgF5n4OFtoY-metaTEQwMDA2MTA2MDg5XzAwMDYxMDYxNDBfMDAwNjExNjEwMC5qcGc=-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1230,7 +1144,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/raKZYrlWJI20fZro1c22hyfNTljisb-metaNzQ1ODBfel8zLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/raKZYrlWJI20fZro1c22hyfNTljisb-metaNzQ1ODBfel8zLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1277,7 +1191,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/uE4rpyvOzqDnW68wSiPbtGprjb3N5q-metaNjEycWZ0S0JmS0wuX0FDX1VGMTAwMCwxMDAwX1FMODBfLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/uE4rpyvOzqDnW68wSiPbtGprjb3N5q-metaNjEycWZ0S0JmS0wuX0FDX1VGMTAwMCwxMDAwX1FMODBfLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1324,7 +1238,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/dkx5w1Lc4YDW0adaHAOrn6U5afjhDB-metaYXN1cy1yb2ctemVwaHlydXMtZzE0LWdhNDAzLWxlZnQtMnRtb2JpbGUuanBn-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/dkx5w1Lc4YDW0adaHAOrn6U5afjhDB-metaYXN1cy1yb2ctemVwaHlydXMtZzE0LWdhNDAzLWxlZnQtMnRtb2JpbGUuanBn-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1371,7 +1285,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/0NYbSgJc2UXY67O7EzeIzRpLcsyutJ-metaTkJLQVNVNjA1MDA1X18zLmpwZw==-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/0NYbSgJc2UXY67O7EzeIzRpLcsyutJ-metaTkJLQVNVNjA1MDA1X18zLmpwZw==-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -1418,7 +1332,7 @@
                         <i class="fa-regular fa-eye"></i>
                     </div>
                     <div class="promot-img">
-                        <a href="../component/computer.html"><img src="https://www.mastertechkh.com/storage/products/ZKaah2sbGviGVdoc1J297rWGLKO1jb-metaZGxjZG53ZWJpbWdzLmFzdXMuanBn-.jpg" alt=""></a>
+                        <a href="./tuf.php"><img src="https://www.mastertechkh.com/storage/products/ZKaah2sbGviGVdoc1J297rWGLKO1jb-metaZGxjZG53ZWJpbWdzLmFzdXMuanBn-.jpg" alt=""></a>
                     </div>
                     <div class="btn-in">
                         <h5>IN STOCK</h5>
@@ -7205,35 +7119,4 @@
 
                <!-- footer -->
 
-               <div class="container-footer">
-                <div class="row">
-                    
-                    <figure>
-                        <img src="https://mastertechkh.com/img/header_search.png" alt="">
-                    </figure>
-                    <div class="footer-contact">
-                        <i class="fa-solid fa-phone"></i>
-                        <p>
-                            010 445 201 / 089 786 502</p>
-                    </div>
-                    <div class="footer-location">
-                        <i class="fa-solid fa-location-dot"></i>
-                        <p>
-                            ទីតាំង: ខាងក្រោយពេទ្យលោកសង្ឈ ផ្លូវ​ 146 ផ្ទះលេខ229A សង្កាត់ទឹកល្អក 2 រាជធានីភ្នុំពេញ​ Cambodia</p>
-                    </div>
-
-                </div>
-                <div class="row">
-                    <p>© 2024 Mastertech KH. All rights reserved</p>
-                    <a class="register-buy" href="./back/view/formgroup.php"><button>Go to register to buy </button></a>
-                </div>
-               </div>
-                <!-- @ -->
-
-</body>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-  </script>
-<script src="script.js"></script>
-</html>
+<?php  include "./footer.php"; ?>

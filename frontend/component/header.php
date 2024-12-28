@@ -1,4 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Document</title>
+    <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
 *{
@@ -709,3 +719,89 @@ hr{
     padding: 10px;
 
 }
+    </style>
+    
+</head>
+<body>
+    <!-- navigationbar -->
+        <nav class="navbar">
+
+            <div class="classNav">
+                <div class="contact">
+                    <i class="fa-solid fa-phone"></i>
+                    <h5>010445201 / 089 786502</h5>
+                </div>
+                <div class="location">
+                    <i class="fa-solid fa-map"></i>
+                    <h5>ទីតាំង: ខាងក្រោយពេទ្យលោកសង្ឈ ផ្លូវ​ 146 ផ្ទះលេខ229A សង្កាត់ទឹកល្អក 2 រាជធានីភ្នុំពេញ​ Cambodia</h5>
+                </div>
+            </div>
+            <div class="classNav">
+                <figure class="imageMaster">
+                    <img src="https://mastertechkh.com/img/header_search.png" alt="">
+                </figure>
+
+                <div class="search">
+                   <span><input type="text" placeholder="Find your favorite">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    
+                </span>
+                  
+                </div>
+
+                <div class=" myAccount">
+                    <i class="fa-regular fa-heart"></i>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    <span><h5 class="" id="myAcount">My Account</h5>
+                        
+                    </span>
+
+                    <div class="drop">
+                       <span><i class="fa-solid fa-right-to-bracket"></i><a href="">Login</a></span>
+                       <span><i class="fa-solid fa-user"></i><a href="">Sign in</a></span>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </nav>
+    <!-- @ -->
+     <!-- cotegoriess -->
+      <div class="contegories">
+
+        <div class="showCotegories">
+            <ul>
+                <li>
+                    <a href="#" class="btncatege" id="btnCategory">Categories</a>
+                        <ul class="btndrop" id="dropdownMenu">
+                            <li>Laptops</li>
+                            <li>PC-parts</li>
+                            <li>Accessories</li>
+                            <li>Monitors</li>
+                            <li>PC-sets</li>
+                            <li>Other</li>
+                        </ul>
+                </li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Laptop ROG</a></li>
+                <li><a href="">MSI</a></li>
+                <li><a href="">ASUS</a></li>
+                <li><a href="">APPLE</a></li>
+                <li><a href="">Accesories</a></li>
+                <li><a href="">CPU</a></li>
+                <li><a href="">PC-Sets</a></li>
+                <li><a href="">Monitore</a></li>
+                <li><a href="">Chair</a></li>
+                <li><a href="">Custom PC Builder</a></li>
+            </ul>
+
+        </div>
+
+      </div>
+      <!-- @ -->
+      
+ 
+
+        <!-- @ -->
+         <!-- cotegories -->
